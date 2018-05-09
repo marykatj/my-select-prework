@@ -6,5 +6,6 @@ def my_select(collection)
       select << collection[i]
     i += 1
   end
+  end
   select
 end
