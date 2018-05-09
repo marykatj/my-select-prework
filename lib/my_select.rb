@@ -3,9 +3,7 @@ def my_select(collection)
   select = []
   while i < collection.length
       yield(collection[i])
-        if i = i.even?
-          select << collection[i]
-        end
+      select << collection[i]
     i += 1
   end
   select
